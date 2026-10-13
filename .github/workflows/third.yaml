@@ -7,7 +7,7 @@ on:
         required: true
 jobs:
   say_hello:
-    name: Bienvenidos
+    name: "Bienvenidos"
     runs-on: ubuntu-latest
     steps:
       -run: echo "¡Hola caracola, ${{ inputs.thename }}!"
