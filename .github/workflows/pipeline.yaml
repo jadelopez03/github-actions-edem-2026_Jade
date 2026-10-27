@@ -69,3 +69,4 @@ jobs:
           echo "Simulando notificacion a Discord..."
           echo "Webhook enmascarado utilizado: ${{ secrets.DISCORD_WEBHOOK }}"
           echo "¡El pipeline de datos se ha completado con correctamente!"
+          
